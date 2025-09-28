@@ -2,7 +2,7 @@ package metrics;
 
 public class PerformanceTracker {
     public long comparisons = 0;
-    public long moves = 0; // assignments/moves
+    public long moves = 0;
     public long arrayAccesses = 0;
     public long memBeforeBytes = 0;
     public long memAfterBytes = 0;
