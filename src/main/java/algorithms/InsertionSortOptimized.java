@@ -13,7 +13,6 @@ public final class InsertionSortOptimized {
         final int n = a.length;
         if (n <= 1) return;
 
-        // Sentinel: move minimum to index 0
         int minIdx = 0;
         for (int i = 1; i < n; i++) {
             if (t != null) t.comparisons++;
